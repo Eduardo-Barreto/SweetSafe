@@ -4,6 +4,8 @@
 
 Este repositório contém os arquivos do esquemático e da PCB do projeto SweetSafe, um "cofre" de doces com Raspberry Pi Pico. Inclui uma descrição dos componentes utilizados e instruções para montagem.
 
+O funcionamento do SweetSafe é simples: a Raspberry Pi Pico controla um eletroímã que mantém a caixa de doces fechada. Quando um pagamento é realizado com sucesso, a Raspberry Pi Pico desativa o eletroímã, permitindo que a caixa seja aberta. Neste momento, LEDs indicam visualmente que a caixa está destravada, enquanto um buzzer emite um som indicando o sucesso da transação. Caso haja uma tentativa de acesso não autorizada, um sensor de fim de curso detecta a abertura da caixa e aciona um alarme, enquanto a Raspberry Pi Pico envia uma notificação aos servidores. Assim, o SweetSafe não apenas mantém os doces seguros, mas também fornece um sistema de monitoramento eficiente para proteger seu conteúdo.
+
 ## Pastas e Arquivos
 
 - **kicad/**: Contém os arquivos de esquemático e PCB do projeto, bem como o principal do KiCad
