@@ -33,6 +33,7 @@ O funcionamento do SweetSafe é simples: a Raspberry Pi Pico controla um eletro�
 ![3D](./images/3d.png)
 
 3D com RayTracing (porque é maneiro)
+
 ![3D RayTracing](./images/3drt.png)
 
 ## BOM (Bill of Materials)
